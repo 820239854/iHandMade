@@ -1,5 +1,11 @@
 #include <windows.h>
 
+#define internal static 
+#define local_persist static 
+#define global_variable static 
+
+global_variable bool Running;
+
 LRESULT CALLBACK MainWindowCallback(HWND Window,
                                     UINT Message,
                                     WPARAM WParam,
@@ -15,12 +21,12 @@ LRESULT CALLBACK MainWindowCallback(HWND Window,
 
 		case WM_DESTROY:
 		{
-			OutputDebugStringA("WM_DESTROY\n");
+			Running = false;
 		} break;
     
 		case WM_CLOSE:
 		{
-			OutputDebugStringA("WM_CLOSE\n");
+			Running = false;
 		} break;
     
 		case WM_ACTIVATEAPP:
@@ -37,7 +43,16 @@ LRESULT CALLBACK MainWindowCallback(HWND Window,
 			int Y = Paint.rcPaint.top;
 			int Width = Paint.rcPaint.right - Paint.rcPaint.left;
 			int Height = Paint.rcPaint.bottom - Paint.rcPaint.top;
-			PatBlt(DeviceContext, X, Y, Width, Height, BLACKNESS);
+			local_persist DWORD Operation = WHITENESS;
+			if (Operation == WHITENESS)
+			{ 
+				Operation = BLACKNESS;
+			}
+			else
+			{
+				Operation = WHITENESS;
+			}
+			PatBlt(DeviceContext, X, Y, Width, Height, Operation);
 
 			EndPaint(Window, &Paint);
 		} break;
@@ -71,8 +86,9 @@ int CALLBACK WinMain(HINSTANCE Instance,
 		                              0, 0, Instance, 0);
 		if (Window)
 		{
+			Running = true;
 			MSG Message;
-			for(;;)                              // a for loop which would run forever
+			while (Running) // Replaces "for" loop
 			{
 				MSG Message;
 				BOOL MessageResult = GetMessage(&Message, 0, 0, 0);
