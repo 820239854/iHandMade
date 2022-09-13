@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <stdint.h>
+#include <stdio.h>
 #include <xinput.h>
 #include <dsound.h>
 #include <math.h>
@@ -390,6 +391,10 @@ int CALLBACK WinMain(HINSTANCE Instance,
                      LPSTR     CommandeLine,
                      int       ShowCode)
 {
+	LARGE_INTEGER PerfCountFrequencyResult;
+	QueryPerformanceFrequency(&PerfCountFrequencyResult);
+	s64 PerfCountFrequency = PerfCountFrequencyResult.QuadPart;
+
 	Win32LoadXInput();
 	WNDCLASSA WindowClass = {};
 	WindowClass.style = CS_OWNDC | CS_HREDRAW | CS_VREDRAW;
@@ -427,6 +432,9 @@ int CALLBACK WinMain(HINSTANCE Instance,
 			Win32FillSoundBuffer(&SoundOutput, 0, (SoundOutput.LatencySampleCount * SoundOutput.BytesPerSample));
 			GlobalSecondaryBuffer->Play(0, 0, DSBPLAY_LOOPING);
 
+			LARGE_INTEGER LastCounter;
+			QueryPerformanceCounter(&LastCounter);
+			u64 LastCycleCount = __rdtsc();
 			GlobalRunning = true;
 			while (GlobalRunning) // Replaces "for" loop
 			{
@@ -506,6 +514,24 @@ int CALLBACK WinMain(HINSTANCE Instance,
 				++XOffset;
 				win32_window_dimension Dimension = Win32GetWindowDimension(Window);
 				Win32DisplayBufferInWindow(&GlobalBackbuffer, DeviceContext, Dimension.Width, Dimension.Height);
+
+				LARGE_INTEGER EndCounter;
+				QueryPerformanceCounter(&EndCounter);
+				u64 EndCycleCount = __rdtsc();
+
+				// TODO(casey): Display the value here
+				s64 CounterElapsed = EndCounter.QuadPart - LastCounter.QuadPart;
+				s64 CyclesElapsed = EndCycleCount - LastCycleCount;
+				f64 MSPerFrame = 1000.0*(f64)CounterElapsed / (f64)PerfCountFrequency;
+				f64 FPS = (f64)PerfCountFrequency / (f64)CounterElapsed;
+				f64 MegaCyclesPerFrame = (f64)CyclesElapsed / (1000.0 * 1000.0);
+
+				char Buffer[256];
+				sprintf(Buffer, "%.02fms/f, %.02ff/s, %.02fMc/f\n", MSPerFrame, FPS, MegaCyclesPerFrame);
+				OutputDebugStringA(Buffer);
+
+				LastCounter = EndCounter;
+				LastCycleCount = EndCycleCount;
 			}
 		}
 		else
