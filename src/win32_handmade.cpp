@@ -1,9 +1,4 @@
-#include <windows.h>
 #include <stdint.h>
-#include <stdio.h>
-#include <xinput.h>
-#include <dsound.h>
-#include <math.h>
 // unsigned integers
 typedef uint8_t u8;     // 1-byte long unsigned integer
 typedef uint16_t u16;   // 2-byte long unsigned integer
@@ -21,7 +16,17 @@ typedef s32 b32;
 #define internal static 
 #define local_persist static 
 #define global_variable static
+
 #define Pi32 3.14159265359f
+
+#include "handmade.cpp"
+
+#include <windows.h>
+#include <stdio.h>
+#include <xinput.h>
+#include <dsound.h>
+// TODO(casey): Implement sine ourselves
+#include <math.h>
 
 struct win32_window_dimension
 {
@@ -84,14 +89,14 @@ typedef DIRECT_SOUND_CREATE(direct_sound_create);
 
 internal void Win32LoadXInput()
 {
-	HMODULE XInputLibrary = LoadLibraryA("Xinput1_4.dll"); 
+	HMODULE XInputLibrary = LoadLibraryA("Xinput1_4.dll");
 	if (!XInputLibrary)
 	{
-		XInputLibrary = LoadLibraryA("Xinput1_3.dll"); 
+		XInputLibrary = LoadLibraryA("Xinput1_3.dll");
 	}
 	if (!XInputLibrary)
 	{
-		XInputLibrary = LoadLibraryA("Xinput9_1_0.dll"); 
+		XInputLibrary = LoadLibraryA("Xinput9_1_0.dll");
 	}
 	if (XInputLibrary)
 	{
@@ -212,29 +217,11 @@ internal win32_window_dimension Win32GetWindowDimension(HWND Window)
 	win32_window_dimension Result; 
     
 	RECT ClientRect;
-	GetClientRect(Window, &ClientRect);    
+	GetClientRect(Window, &ClientRect);
 	Result.Width = ClientRect.right - ClientRect.left;
 	Result.Height = ClientRect.bottom - ClientRect.top;
     
 	return(Result);
-}
-
-internal void RenderWeirdGradient(win32_offscreen_buffer *Buffer, int XOffset, int YOffset)
-{
-	int Pitch = Buffer->Width * Buffer->BytesPerPixel;
-	u8 *Row = (u8 *)Buffer->Memory;
-	for (int Y = 0;Y < Buffer->Height;++Y)
-	{
-		u32* Pixel = (u32*)Row;
-		for(int X = 0;X < Buffer->Width;++X)
-		{
-			u8 Red = 0;
-			u8 Green = (u8)(Y + YOffset);
-			u8 Blue = (u8)(X + XOffset);
-			*Pixel++ = Red << 16 | Green << 8 | Blue; // << 0
-		}
-		Row += Buffer->Pitch;
-	}
 }
 
 internal void Win32ResizeDIBSection(win32_offscreen_buffer *Buffer, int Width, int Height)
@@ -488,8 +475,13 @@ int CALLBACK WinMain(HINSTANCE Instance,
 				Vibration.wLeftMotorSpeed = 60000;
 				Vibration.wRightMotorSpeed = 60000;
 				XInputSetState(0, &Vibration);
-				RenderWeirdGradient(&GlobalBackbuffer, XOffset, YOffset);
 
+				game_offscreen_buffer Buffer = {}; // clear to zero!
+				Buffer.Memory = GlobalBackbuffer.Memory;
+				Buffer.Width = GlobalBackbuffer.Width;
+				Buffer.Height = GlobalBackbuffer.Height;
+				Buffer.Pitch = GlobalBackbuffer.Pitch;
+				GameUpdateAndRender(&Buffer);
 
 				DWORD PlayCursor;
 				DWORD WriteCursor;
@@ -526,9 +518,11 @@ int CALLBACK WinMain(HINSTANCE Instance,
 				f64 FPS = (f64)PerfCountFrequency / (f64)CounterElapsed;
 				f64 MegaCyclesPerFrame = (f64)CyclesElapsed / (1000.0 * 1000.0);
 
+#if 0
 				char Buffer[256];
 				sprintf(Buffer, "%.02fms/f, %.02ff/s, %.02fMc/f\n", MSPerFrame, FPS, MegaCyclesPerFrame);
 				OutputDebugStringA(Buffer);
+#endif
 
 				LastCounter = EndCounter;
 				LastCycleCount = EndCycleCount;
