@@ -58,6 +58,93 @@ global_variable x_input_set_state *XInputSetState_ = XInputSetStateStub;
 #define DIRECT_SOUND_CREATE(name) HRESULT WINAPI name(LPCGUID pcGuidDevice, LPDIRECTSOUND *ppDS, LPUNKNOWN pUnkOuter)
 typedef DIRECT_SOUND_CREATE(direct_sound_create);
 
+internal void DEBUGPlatformFreeFileMemory(void *Memory)
+{
+	if (Memory)
+	{
+		VirtualFree(Memory, 0, MEM_RELEASE);
+	}
+}
+
+internal debug_read_file_result DEBUGPlatformReadEntireFile(const char *Filename)
+{
+	debug_read_file_result Result = {};
+	HANDLE FileHandle = CreateFileA(Filename, GENERIC_READ, FILE_SHARE_READ, 0, OPEN_EXISTING, 0, 0);
+	if (FileHandle != INVALID_HANDLE_VALUE)
+	{
+		LARGE_INTEGER FileSize;
+		if(GetFileSizeEx(FileHandle, &FileSize))
+		{
+			u32 FileSize32 = SafeTruncateUInt64(FileSize.QuadPart);
+			Result.Contents = VirtualAlloc(0, FileSize32, MEM_RESERVE|MEM_COMMIT, PAGE_READWRITE);
+			if (Result.Contents)
+			{
+				DWORD BytesRead;
+				if (ReadFile(FileHandle, Result.Contents, FileSize32, &BytesRead, 0) &&
+				    (FileSize32 == BytesRead))
+				{
+					// NOTE(casey): File read successfully
+					Result.ContentsSize = BytesRead;
+				}
+				else
+				{
+					// Error: Read failed
+					DEBUGPlatformFreeFileMemory(Result.Contents);
+					Result.Contents = 0;
+					// TODO(casey): Logging
+				}
+			}
+			else
+			{
+				// Error: Memory allocation failed
+				// TODO(casey): Logging
+			}
+			CloseHandle(FileHandle);
+		}
+		else
+		{
+			// Error: File size evaluation failed
+			// TODO(casey): Logging
+		}
+	}
+	else
+	{
+		// Error: handle creation failed
+		// TODO(casey): Logging
+	}
+	return (Result);
+}
+
+internal b32 DEBUGPlatformWriteEntireFile(const char *Filename, u32 MemorySize, void *Memory)
+{
+	b32 Result = false;
+    
+	HANDLE FileHandle = CreateFileA(Filename, GENERIC_WRITE, 0, 0, CREATE_ALWAYS, 0, 0);
+	if(FileHandle != INVALID_HANDLE_VALUE)
+	{
+		DWORD BytesWritten;
+		if(WriteFile(FileHandle, Memory, MemorySize, &BytesWritten, 0))
+		{
+			// NOTE(casey): File written successfully
+			Result = (BytesWritten == MemorySize);
+		}
+		else
+		{
+			// Error: Write failed
+			// TODO(casey): Logging
+		}
+		CloseHandle(FileHandle);
+	}
+	else
+	{
+		// Error: Handle creation failed
+		// TODO(casey): Logging
+	}
+    
+	return(Result);
+}
+
+
 internal void Win32LoadXInput()
 {
 	HMODULE XInputLibrary = LoadLibraryA("Xinput1_4.dll");
@@ -420,7 +507,6 @@ int CALLBACK WinMain(HINSTANCE Instance,
 #else
 			LPVOID BaseAddress = 0;
 #endif
-			
 			game_memory GameMemory = {};
 			GameMemory.PermanentStorageSize = Megabytes(64);
 			GameMemory.TransientStorageSize = Gigabytes(2);
@@ -608,8 +694,6 @@ int CALLBACK WinMain(HINSTANCE Instance,
 				// Memory allocation failed
 				// TODO(casey): Logging
 			}
-			
-
 		}
 		else
 		{
@@ -619,4 +703,3 @@ int CALLBACK WinMain(HINSTANCE Instance,
 	}
 	return (0);
 }
-

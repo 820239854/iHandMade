@@ -12,6 +12,18 @@
 	1 - Slow code welcome. 
 */
 
+// NOTE(casey): Services that the platform layer provides to the game.
+#if HANDMADE_INTERNAL
+struct debug_read_file_result
+{
+	u32 ContentsSize;
+	void *Contents;
+};
+internal debug_read_file_result DEBUGPlatformReadEntireFile(const char *Filename);
+internal void DEBUGPlatformFreeFileMemory(void *Memory);
+internal b32 DEBUGPlatformWriteEntireFile(const char *Filename, u32 MemorySize, void *Memory);
+#endif
+
 #if HANDMADE_SLOW
 #define Assert(Expression) if (!(Expression)) { *(int *)0 = 0; }
 #else
@@ -24,6 +36,13 @@
 #define Terabytes(Value) (Gigabytes(Value) * 1024LL)
 
 #define ArrayCount(Array) (sizeof(Array) / sizeof((Array)[0]))
+
+inline u32 SafeTruncateUInt64(u64 Value)
+{
+	Assert(Value <= 0xFFFFFFFF);
+	u32 Result = (u32)Value;
+	return (Result);
+}
 
 struct game_offscreen_buffer
 {
