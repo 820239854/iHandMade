@@ -1,0 +1,5 @@
+syn keyword CTagsMember sendJson selection lineLengths selection_range __del__ connectSock array_length fn_caller compile disconnectSock waitForOk longestRow dirty edit_path obj_paths __init__ editor
+syn keyword CTagsGlobalVariable g_port file_data largest_row build_dir portlog filenames largest_col testfile_dir
+syn keyword CTagsFunction test_user_actions jsonObject test_file_selections test_file_changes script_dir test_json_objects do_some_actions next_port
+syn keyword CTagsClass Paths FileData UserAction Tester
+

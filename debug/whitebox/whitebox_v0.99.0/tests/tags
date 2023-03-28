@@ -1,0 +1,629 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	D:/Documents/Coding/C/whitebox/tests/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/61166a75/
+ANON_a	test_complex_types.c	/^    ANON_a,$/;"	e	enum:__anon25586ce10303	file:
+ANON_b	test_complex_types.c	/^    ANON_b,$/;"	e	enum:__anon25586ce10303	file:
+Addr	test_simple_protos.c	/^typedef void *Addr;$/;"	t	typeref:typename:void *	file:
+AnonEnum	test_complex_types.c	/^} AnonEnum;$/;"	t	typeref:enum:__anon25586ce10303	file:
+Anon	test_complex_types.c	/^} Anon;$/;"	t	typeref:struct:__anon25586ce10408	file:
+ArrayData	test_struct_hack.c	/^typedef struct ArrayData {$/;"	s	file:
+ArrayData	test_struct_hack.c	/^} ArrayData;$/;"	t	typeref:struct:ArrayData	file:
+ArrayHeader	test_struct_hack.c	/^typedef struct ArrayHeader {$/;"	s	file:
+ArrayHeader	test_struct_hack.c	/^} ArrayHeader;$/;"	t	typeref:struct:ArrayHeader	file:
+Branch	tree_binary_search.cpp	/^struct Branch {$/;"	s	file:
+Branch	tree_binary_search.h	/^struct Branch {$/;"	s
+Branch	tree_search.cpp	/^struct Branch {$/;"	s	file:
+Byte	test_complex_types.c	/^typedef uint8_t       Byte;$/;"	t	typeref:typename:uint8_t	file:
+ConstAnonPtr	test_complex_types.c	/^typedef Anon const *ConstAnonPtr;$/;"	t	typeref:typename:Anon const *	file:
+ConstAnon	test_complex_types.c	/^typedef Anon const  ConstAnon;$/;"	t	typeref:typename:Anon const	file:
+Container	test_complex_types.c	/^struct Container {$/;"	s	file:
+DEBUG_PLATFORM_FREE_FILE_MEMORY	win.c	/^#define DEBUG_PLATFORM_FREE_FILE_MEMORY(/;"	d	file:
+DEBUG_PLATFORM_FREE_FILE_MEMORY	win.c	/^typedef DEBUG_PLATFORM_FREE_FILE_MEMORY(debug_platform_free_file_memory);$/;"	t	file:
+DEBUG_PLATFORM_READ_ENTIRE_FILE	win.c	/^#define DEBUG_PLATFORM_READ_ENTIRE_FILE(/;"	d	file:
+DEBUG_PLATFORM_READ_ENTIRE_FILE	win.c	/^typedef DEBUG_PLATFORM_READ_ENTIRE_FILE(debug_platform_read_entire_file);$/;"	t	file:
+DEBUG_PLATFORM_WRITE_ENTIRE_FILE	win.c	/^#define DEBUG_PLATFORM_WRITE_ENTIRE_FILE(/;"	d	file:
+DEBUG_PLATFORM_WRITE_ENTIRE_FILE	win.c	/^typedef DEBUG_PLATFORM_WRITE_ENTIRE_FILE(debug_platform_write_entire_file);$/;"	t	file:
+DataType	test_complex_ptrs.c	/^typedef struct DataType {$/;"	s	file:
+DataType	test_complex_ptrs.c	/^} DataType;$/;"	t	typeref:struct:DataType	file:
+Data	test_class.cpp	/^class Data {$/;"	c	file:
+Data	test_method.cpp	/^class Data {$/;"	c	file:
+Data	test_outer_method.cpp	/^class Data {$/;"	c	file:
+Data	demo3.c	/^typedef struct Data {$/;"	s	file:
+Data	test_linux/testfiles/demo3.c	/^typedef struct Data {$/;"	s	file:
+Data	test_loclists.c	/^typedef struct Data {$/;"	s	file:
+Data	test_namespace.cpp	/^    struct Data { OtherInt val; };$/;"	s	namespace:other_ns	file:
+Data	test_namespace.cpp	/^struct Data { OtherInt val; };$/;"	s	file:
+Data	test_reference.cpp	/^struct Data {$/;"	s	file:
+Data	demo3.c	/^} Data;$/;"	t	typeref:struct:Data	file:
+Data	test_linux/testfiles/demo3.c	/^} Data;$/;"	t	typeref:struct:Data	file:
+Data	test_loclists.c	/^} Data;$/;"	t	typeref:struct:Data	file:
+Debug_PlaformFreeFileMemory	win.c	/^    debug_platform_free_file_memory *Debug_PlaformFreeFileMemory;$/;"	m	struct:__anon10a3d2240108	typeref:typename:debug_platform_free_file_memory *	file:
+Debug_PlatformReadEntireFile	win.c	/^    debug_platform_read_entire_file *Debug_PlatformReadEntireFile;$/;"	m	struct:__anon10a3d2240108	typeref:typename:debug_platform_read_entire_file *	file:
+Debug_PlatformWriteEntireFile	win.c	/^    debug_platform_write_entire_file *Debug_PlatformWriteEntireFile;$/;"	m	struct:__anon10a3d2240108	typeref:typename:debug_platform_write_entire_file *	file:
+DemoType2_default	demo2.c	/^DemoType2 DemoType2_default(int n)$/;"	f	typeref:typename:DemoType2
+DemoType2_default	test_linux/testfiles/demo2.c	/^DemoType2 DemoType2_default(int n)$/;"	f	typeref:typename:DemoType2
+DemoType2	demo2.c	/^typedef struct DemoType2 {$/;"	s	file:
+DemoType2	test_linux/testfiles/demo2.c	/^typedef struct DemoType2 {$/;"	s	file:
+DemoType2	demo2.c	/^} DemoType2;$/;"	t	typeref:struct:DemoType2	file:
+DemoType2	test_linux/testfiles/demo2.c	/^} DemoType2;$/;"	t	typeref:struct:DemoType2	file:
+DemoType	demo2.c	/^typedef struct DemoType {$/;"	s	file:
+DemoType	test_linux/testfiles/demo.c	/^typedef struct DemoType {$/;"	s	file:
+DemoType	test_linux/testfiles/demo2.c	/^typedef struct DemoType {$/;"	s	file:
+DemoType	demo2.c	/^} DemoType;$/;"	t	typeref:struct:DemoType	file:
+DemoType	test_linux/testfiles/demo.c	/^} DemoType;$/;"	t	typeref:struct:DemoType	file:
+DemoType	test_linux/testfiles/demo2.c	/^} DemoType;$/;"	t	typeref:struct:DemoType	file:
+ENUM_val	regressions/enum_var.c	/^enum my_enum { ENUM_val };$/;"	e	enum:my_enum	file:
+Enum_a	test_enums.c	/^    Enum_a       = 0,$/;"	e	enum:Enum	file:
+Enum_b	test_enums.c	/^    Enum_b       = 1,$/;"	e	enum:Enum	file:
+Enum_c2	test_enums.c	/^    Enum_c2      = 2,$/;"	e	enum:Enum	file:
+Enum_c	test_enums.c	/^    Enum_c       = 2,$/;"	e	enum:Enum	file:
+Enum_count	test_enums.c	/^    Enum_count,$/;"	e	enum:Enum	file:
+Enum_d	test_enums.c	/^    Enum_d       = 3,$/;"	e	enum:Enum	file:
+Enum_e	test_enums.c	/^    Enum_e       = 4,$/;"	e	enum:Enum	file:
+Enum_f	test_enums.c	/^    Enum_f       = 5,$/;"	e	enum:Enum	file:
+Enum_unknown	test_enums.c	/^    Enum_unknown = -1,$/;"	e	enum:Enum	file:
+Enum	test_enums.c	/^typedef enum Enum {$/;"	g	file:
+Enum	test_enums.c	/^} Enum;$/;"	t	typeref:enum:Enum	file:
+F4_rsqrt	screen_rects.c	/^F4_rsqrt(float a)$/;"	f	typeref:typename:float
+FacRoot	demo.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	t	typeref:struct:__anonf884325b0108	file:
+FacRoot	sfr.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	t	typeref:struct:__anon1059dc010108	file:
+FileData	test_linux/gen_user_input.py	/^class FileData:$/;"	c
+Fit_in_64_bits	demo4.c	/^    Fit_in_64_bits,$/;"	e	enum:__anon090a90cf0103	file:
+Fit	demo4.c	/^} Fit;$/;"	t	typeref:enum:__anon090a90cf0103	file:
+Flags_Count	test_enums.c	/^    Flags_Count$/;"	e	enum:Flags	file:
+Flags_a	test_enums.c	/^    Flags_a       = 1 << 0,$/;"	e	enum:Flags	file:
+Flags_b	test_enums.c	/^    Flags_b       = 1 << 1,$/;"	e	enum:Flags	file:
+Flags_c2	test_enums.c	/^    Flags_c2      = 1 << 2,$/;"	e	enum:Flags	file:
+Flags_c	test_enums.c	/^    Flags_c       = 1 << 2,$/;"	e	enum:Flags	file:
+Flags_d	test_enums.c	/^    Flags_d       = 1 << 3,$/;"	e	enum:Flags	file:
+Flags_e	test_enums.c	/^    Flags_e       = 1 << 4,$/;"	e	enum:Flags	file:
+Flags_f	test_enums.c	/^    Flags_f       = 1 << 5,$/;"	e	enum:Flags	file:
+Flags_unknown	test_enums.c	/^    Flags_unknown = 0,$/;"	e	enum:Flags	file:
+Flags	test_enums.c	/^typedef enum Flags {$/;"	g	file:
+Flags	test_enums.c	/^} Flags;$/;"	t	typeref:enum:Flags	file:
+FnStruct	test_complex_types.c	/^struct FnStruct {$/;"	s	file:
+Fn_float	test_complex_types.c	/^    enum { Fn_int, Fn_float, } kind;$/;"	e	enum:FnStruct::__anon25586ce10103	file:
+Fn_int	test_complex_types.c	/^    enum { Fn_int, Fn_float, } kind;$/;"	e	enum:FnStruct::__anon25586ce10103	file:
+Fn	test_complex_types.c	/^typedef int Fn(struct FnStruct info, int data);$/;"	t	typeref:typename:int ()(struct FnStruct info,int data)	file:
+Fn	test_fn_ptr.c	/^    typedef int (*Fn)(int);$/;"	t	function:fn_ptr	typeref:typename:int (*)(int)	file:
+Function	executable.c	/^    typedef uint32_t Function(void);$/;"	t	function:main	typeref:typename:uint32_t ()(void)	file:
+Global_Strs	test_strings.c	/^char const *Global_Strs[] = {$/;"	v	typeref:typename:char const * []
+IVLPt_Count	test_overlap.c	/^    IVLPt_Count,$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt_after	test_overlap.c	/^    IVLPt_after,    \/\/   |   | X$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt_before	test_overlap.c	/^    IVLPt_before,   \/\/ X |   |$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt_end	test_overlap.c	/^    IVLPt_end,      \/\/   |   X$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt_inside	test_overlap.c	/^    IVLPt_inside,   \/\/   | X |$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt_start	test_overlap.c	/^    IVLPt_start,    \/\/   X   |$/;"	e	enum:__anonfa0c5ece0103	file:
+IVLPt	test_overlap.c	/^} IVLPt;$/;"	t	typeref:enum:__anonfa0c5ece0103	file:
+IVL_Count	test_overlap.c	/^    IVL_Count,            \/\/   _____________________________$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_after	test_overlap.c	/^    IVL_after      = 0xf, \/\/           |           |   [-A-)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_at_end	test_overlap.c	/^    IVL_at_end     = 0xd, \/\/           |           A  (0-length array: start and end both at e/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_at_start	test_overlap.c	/^    IVL_at_start   = 0x6, \/\/           A           |  (0-length array: start and end both at s/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_before	test_overlap.c	/^    IVL_before     = 0x1, \/\/  [-A--)   |           |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_contains	test_overlap.c	/^    IVL_contains   = 0x5, \/\/  [--------|----A------|-------)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_during	test_overlap.c	/^    IVL_during     = 0xa, \/\/           |   [-A-)   |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_ended	test_overlap.c	/^    IVL_ended      = 0x4, \/\/  [--------|-A---------)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_ends	test_overlap.c	/^    IVL_ends       = 0xb, \/\/           |   [---A---)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_equals	test_overlap.c	/^    IVL_equals     = 0x8, \/\/           [-----A-----)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_is_inside	test_overlap.c	/^inline bool IVL_is_inside(IVL ivl) { return IVL_at_start <= ivl && ivl <= IVL_ends && ivl != IVL/;"	f	typeref:typename:bool
+IVL_is_overlapping	test_overlap.c	/^inline bool IVL_is_overlapping(IVL ivl) { return IVL_overlaps <= ivl && ivl <= IVL_overlapped; }$/;"	f	typeref:typename:bool
+IVL_meets	test_overlap.c	/^    IVL_meets      = 0x2, \/\/  [----A---)           |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_met	test_overlap.c	/^    IVL_met        = 0xe, \/\/           |           [--A----)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_null	test_overlap.c	/^    IVL_null       = 0x0, \/\/           |           |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_overlapped	test_overlap.c	/^    IVL_overlapped = 0xc, \/\/           |   [-----A-|-------)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_overlaps	test_overlap.c	/^    IVL_overlaps   = 0x3, \/\/  [-------A|-------)   |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_started	test_overlap.c	/^    IVL_started    = 0x9, \/\/           [--------A--|-------)$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL_starts	test_overlap.c	/^    IVL_starts     = 0x7, \/\/           [--A----)   |$/;"	e	enum:__anonfa0c5ece0203	file:
+IVL	test_overlap.c	/^} IVL;                    \/\/   |   |   |   | bs<ae |   |   |$/;"	t	typeref:enum:__anonfa0c5ece0203	file:
+IncludedType	test_local_included.c	/^typedef struct IncludedType {$/;"	s	file:
+IncludedType	test_local_included.c	/^} IncludedType;$/;"	t	typeref:struct:IncludedType	file:
+Leaf	tree_binary_search.cpp	/^struct Leaf   {$/;"	s	file:
+Leaf	tree_binary_search.h	/^struct Leaf   {$/;"	s
+Leaf	tree_search.c	/^typedef struct Leaf Leaf; struct Leaf {$/;"	s	file:
+Leaf	tree_search.cpp	/^struct Leaf   {$/;"	s	file:
+Leaf	tree_search.c	/^typedef struct Leaf Leaf; struct Leaf {$/;"	t	typeref:struct:Leaf	file:
+Leaf	tree_search.c	/^} Leaf;$/;"	v	typeref:struct:Leaf
+LinkFloat	test_circular_references.c	/^struct LinkFloat {$/;"	s	file:
+LinkFloat	test_circular_references.c	/^typedef struct LinkFloat LinkFloat;$/;"	t	typeref:struct:LinkFloat	file:
+LinkInt	test_circular_references.c	/^struct LinkInt {$/;"	s	file:
+LinkInt	test_circular_references.c	/^typedef struct LinkInt LinkInt;$/;"	t	typeref:struct:LinkInt	file:
+Link	test_circular_references.c	/^struct Link {$/;"	s	file:
+Link	test_circular_references.c	/^typedef struct Link Link;$/;"	t	typeref:struct:Link	file:
+MyData	demo.c	/^typedef struct MyData {$/;"	s	file:
+MyData	test_root.c	/^typedef struct MyData {$/;"	s	file:
+MyData	demo.c	/^} MyData;$/;"	t	typeref:struct:MyData	file:
+MyData	test_root.c	/^} MyData;$/;"	t	typeref:struct:MyData	file:
+MyFn	test_complex_types.c	/^typedef Fn *MyFn;$/;"	t	typeref:typename:Fn *	file:
+MyStr	test_complex_types.c	/^typedef Str MyStr;$/;"	t	typeref:typename:Str	file:
+MyStruct	test_loop_structs.c	/^typedef struct MyStruct {$/;"	s	file:
+MyStruct	test_loop_structs.c	/^} MyStruct;$/;"	t	typeref:struct:MyStruct	file:
+MyType	test_complex_types.c	/^} MyType;$/;"	t	typeref:struct:Type	file:
+MyType	test_simple_protos.c	/^} MyType;$/;"	t	typeref:struct:Type	file:
+NamedStruct	test_complex_types.c	/^    struct NamedStruct { MyType my_type; int data; } named_struct;$/;"	s	struct:Container	file:
+No_fit_in_64_bits	demo4.c	/^    No_fit_in_64_bits,$/;"	e	enum:__anon090a90cf0103	file:
+OP_add	demo3.c	/^    OP_add    = 0x4,$/;"	e	enum:Op	file:
+OP_add	test_linux/testfiles/demo3.c	/^    OP_add    = 0x4,$/;"	e	enum:Op	file:
+OP_negate	demo3.c	/^    OP_negate = 0x2,$/;"	e	enum:Op	file:
+OP_negate	test_linux/testfiles/demo3.c	/^    OP_negate = 0x2,$/;"	e	enum:Op	file:
+OP_square	demo3.c	/^    OP_square = 0x1,$/;"	e	enum:Op	file:
+OP_square	test_linux/testfiles/demo3.c	/^    OP_square = 0x1,$/;"	e	enum:Op	file:
+Only_a	test_complex_types.c	/^    Only_a,$/;"	e	enum:TagOnlyEnum	file:
+Only_b	test_complex_types.c	/^    Only_b,$/;"	e	enum:TagOnlyEnum	file:
+Op	demo3.c	/^typedef enum Op {$/;"	g	file:
+Op	test_linux/testfiles/demo3.c	/^typedef enum Op {$/;"	g	file:
+Op	demo3.c	/^} Op;$/;"	t	typeref:enum:Op	file:
+Op	test_linux/testfiles/demo3.c	/^} Op;$/;"	t	typeref:enum:Op	file:
+OtherInt	test_namespace.cpp	/^    typedef int OtherInt;$/;"	t	namespace:other_ns	typeref:typename:int	file:
+OtherInt	test_namespace.cpp	/^typedef int OtherInt;$/;"	t	typeref:typename:int	file:
+OuterInt	test_namespace.cpp	/^    typedef int OuterInt;$/;"	t	namespace:outer_ns	typeref:typename:int	file:
+Paths	test_linux/gen_user_input.py	/^class Paths:$/;"	c
+PtrTypeArray	test_complex_ptrs.c	/^    typedef PtrType PtrTypeArray[3];$/;"	t	function:complex_ptrs	typeref:typename:PtrType[3]	file:
+PtrTypeContainer	test_complex_ptrs.c	/^typedef struct PtrTypeContainer {$/;"	s	file:
+PtrTypeContainer	test_complex_ptrs.c	/^} PtrTypeContainer;$/;"	t	typeref:struct:PtrTypeContainer	file:
+PtrType	test_complex_ptrs.c	/^struct PtrType {$/;"	s	file:
+PtrType	test_complex_ptrs.c	/^typedef struct PtrType PtrType;$/;"	t	typeref:struct:PtrType	file:
+RectStats	screen_rects.c	/^typedef struct RectStats {$/;"	s	file:
+RectStats	screen_rects.c	/^} RectStats;$/;"	t	typeref:struct:RectStats	file:
+Rect	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	s	file:
+Rect	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	t	typeref:struct:Rect	file:
+RecursiveFn1	test_complex_types.c	/^typedef RecursiveType (*const RecursiveFn1)(int data, RecursiveType *prev);$/;"	t	typeref:typename:RecursiveType (* const)(int data,RecursiveType * prev)	file:
+RecursiveFn2	test_complex_types.c	/^typedef RecursiveType (**const * RecursiveFn2[3])(int data, RecursiveType *prev);$/;"	t	typeref:typename:RecursiveType (** const * [3])(int data,RecursiveType * prev)	file:
+RecursiveTypePtr	test_complex_types.c	/^typedef struct RecursiveTypeTag *RecursiveTypePtr;$/;"	t	typeref:struct:RecursiveTypeTag *	file:
+RecursiveTypeTag	test_complex_types.c	/^struct RecursiveTypeTag {$/;"	s	file:
+RecursiveType	test_complex_types.c	/^typedef struct RecursiveTypeTag RecursiveType;$/;"	t	typeref:struct:RecursiveTypeTag	file:
+Size_max	test_overlap.c	/^inline Size Size_max(Size a, Size b) { return a > b ? a : b; }$/;"	f	typeref:typename:Size
+Size_min	test_overlap.c	/^inline Size Size_min(Size a, Size b) { return a < b ? a : b; }$/;"	f	typeref:typename:Size
+Size	test_overlap.c	/^typedef unsigned long long Size;$/;"	t	typeref:typename:unsigned long long	file:
+SmallStruct	test_small_struct_return.c	/^typedef struct SmallStruct {$/;"	s	file:
+SmallStruct	test_small_struct_return.c	/^} SmallStruct;$/;"	t	typeref:struct:SmallStruct	file:
+Species	tree_binary_search.cpp	/^enum Species  { oak, maple, beech };$/;"	g	file:
+Species	tree_binary_search.h	/^enum Species  { oak, maple, beech };$/;"	g
+Species	tree_search.cpp	/^enum Species  { oak, maple, beech };$/;"	g	file:
+Species	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	t	typeref:enum:__anon0b2fdebb0103	file:
+Str	test_complex_types.c	/^typedef char *Str;$/;"	t	typeref:typename:char *	file:
+Stuff	test_external_template.cpp	/^struct Stuff {$/;"	s	file:
+TAG_a	test_complex_types.c	/^    TAG_a,$/;"	e	enum:TaggedEnumTag	file:
+TAG_b	test_complex_types.c	/^    TAG_b,$/;"	e	enum:TaggedEnumTag	file:
+TS	test_return_types.c	/^#define TS(/;"	d	file:
+TagOnlyEnum	test_complex_types.c	/^enum TagOnlyEnum {$/;"	g	file:
+TaggedEnumTag	test_complex_types.c	/^typedef enum TaggedEnumTag {$/;"	g	file:
+TaggedEnum	test_complex_types.c	/^} TaggedEnum;$/;"	t	typeref:enum:TaggedEnumTag	file:
+Tester	test_linux/gen_user_input.py	/^class Tester:$/;"	c
+Tree	tree_search.c	/^typedef struct Tree {$/;"	s	file:
+Type	test_complex_types.c	/^typedef struct Type {$/;"	s	file:
+Type	test_simple_protos.c	/^typedef struct Type {$/;"	s	file:
+UPtr	test_overlap.c	/^typedef unsigned long long UPtr;$/;"	t	typeref:typename:unsigned long long	file:
+UnusedType	test_complex_types.c	/^typedef int UnusedType;$/;"	t	typeref:typename:int	file:
+UserAction	test_linux/gen_user_input.py	/^class UserAction:$/;"	c
+V2	tree_search.c	/^typedef struct { float x, y; } V2;$/;"	t	typeref:struct:__anon0b2fdebb0208	file:
+Vec2	tree_binary_search.cpp	/^struct Vec2   { float x, y; };$/;"	s	file:
+Vec2	tree_binary_search.h	/^struct Vec2   { float x, y; };$/;"	s
+Vec2	tree_search.cpp	/^struct Vec2   { float x, y; };$/;"	s	file:
+WIN32_LEAN_AND_MEAN	executable.c	/^#define WIN32_LEAN_AND_MEAN$/;"	d	file:
+WIN32_LEAN_AND_MEAN	test_windows_last_error.c	/^#define WIN32_LEAN_AND_MEAN$/;"	d	file:
+WIN32_LEAN_AND_MEAN	win.c	/^#define WIN32_LEAN_AND_MEAN$/;"	d	file:
+WinMain	win.c	/^WinMain(HINSTANCE Instance, HINSTANCE PrevInstance, LPSTR CommandLine, int ShowCode)$/;"	f	typeref:typename:int CALLBACK
+__anon090a90cf0103	demo4.c	/^typedef enum {$/;"	g	file:
+__anon0b2fdebb0103	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	g	file:
+__anon0b2fdebb0208	tree_search.c	/^typedef struct { float x, y; } V2;$/;"	s	file:
+__anon1059dc010108	sfr.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	s	file:
+__anon10a3d2240108	win.c	/^{$/;"	s	file:
+__anon25586ce10103	test_complex_types.c	/^    enum { Fn_int, Fn_float, } kind;$/;"	g	struct:FnStruct	file:
+__anon25586ce1020a	test_complex_types.c	/^    union {$/;"	u	struct:FnStruct	file:
+__anon25586ce10303	test_complex_types.c	/^typedef enum {$/;"	g	file:
+__anon25586ce10408	test_complex_types.c	/^typedef struct {$/;"	s	file:
+__anon25586ce10508	test_complex_types.c	/^    struct { int data; struct Type my_types[1][2][3][4]; } inline_struct;$/;"	s	struct:Container	file:
+__anon25586ce10608	test_complex_types.c	/^    struct { int anon_data; MyType const *my_type_ptr; };$/;"	s	struct:Container	file:
+__anon524e8c96010a	screen_rects.c	/^	union { float f; unsigned i; } val = { a };$/;"	u	function:F4_rsqrt	file:
+__anon786a1e660108	test_loops_struct.c	/^    struct {int k; float f; } st = { 0 };$/;"	s	function:loops	file:
+__anond91e64b50108	test_.c	/^    struct {$/;"	s	function:main	file:
+__anonf884325b0108	demo.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	s	file:
+__anonfa0c5ece0103	test_overlap.c	/^typedef enum {      \/\/   [-A-)$/;"	g	file:
+__anonfa0c5ece0203	test_overlap.c	/^typedef enum {            \/\/           [-----B-----)$/;"	g	file:
+__del__	test_linux/gen_user_input.py	/^    def __del__(self):$/;"	m	class:Tester
+__init__	test_linux/gen_user_input.py	/^    def __init__(self, exe, port, host="localhost", show_window=False):$/;"	m	class:Tester
+__init__	test_linux/gen_user_input.py	/^    def __init__(self, filename, path):$/;"	m	class:FileData
+a_star	demo.c	/^a_star()$/;"	f	typeref:typename:void
+add_reg	demo.cpp	/^int add_reg(int &a, int b)$/;"	f	typeref:typename:int
+addends	demo3.c	/^    char addends[4];$/;"	m	struct:Data	typeref:typename:char[4]	file:
+addends	test_linux/testfiles/demo3.c	/^    char addends[4];$/;"	m	struct:Data	typeref:typename:char[4]	file:
+addends	test_loclists.c	/^    char addends[4];$/;"	m	struct:Data	typeref:typename:char[4]	file:
+addr	test_complex_types.c	/^    void   *addr;$/;"	m	struct:Type	typeref:typename:void *	file:
+addr	test_simple_protos.c	/^    void  *addr;$/;"	m	struct:Type	typeref:typename:void *	file:
+alloc	test_win32_kernel.c	/^int *alloc(unsigned size)$/;"	f	typeref:typename:int *
+a	test_class.cpp	/^    int a;$/;"	m	class:Data	typeref:typename:int	file:
+a	test_local_included.c	/^    int   a;$/;"	m	struct:IncludedType	typeref:typename:int	file:
+a	test_method.cpp	/^    int a;$/;"	m	class:Data	typeref:typename:int	file:
+a	test_outer_method.cpp	/^    int a;$/;"	m	class:Data	typeref:typename:int	file:
+a	test_small_struct_return.c	/^    char          a;$/;"	m	struct:SmallStruct	typeref:typename:char	file:
+anon_data	test_complex_types.c	/^    struct { int anon_data; MyType const *my_type_ptr; };$/;"	m	struct:Container::__anon25586ce10608	typeref:typename:int	file:
+anon	test_complex_types.c	/^    Anon         anon;$/;"	m	struct:Type	typeref:typename:Anon	file:
+anons	test_complex_types.c	/^    Anon         anons[2];$/;"	m	struct:Type	typeref:typename:Anon[2]	file:
+another_ns	test_namespace.cpp	/^    namespace another_ns$/;"	n	namespace:outer_ns	file:
+area_of_leaf	tree_binary_search.cpp	/^int area_of_leaf(Leaf *leaf) {$/;"	f	typeref:typename:int
+area_of_leaf	tree_binary_search.h	/^int area_of_leaf(Leaf *leaf) {$/;"	f	typeref:typename:int
+area_of_leaf	tree_search.cpp	/^int area_of_leaf(Leaf *leaf) {$/;"	f	typeref:typename:int
+array_fn	demo.c	/^array_fn(float *nums, int n)$/;"	f	typeref:typename:float
+array_fn	test_linux/testfiles/demo.c	/^array_fn(float *nums, int n)$/;"	f	typeref:typename:float
+array_length	test_linux/gen_user_input.py	/^    def array_length(id, length):$/;"	m	class:UserAction
+arr	test_.c	/^        char   arr[20];$/;"	m	struct:main::__anond91e64b50108	typeref:typename:char[20]	file:
+arr	test_complex_types.c	/^    int     arr[3];$/;"	m	struct:Type	typeref:typename:int[3]	file:
+b32	win.c	/^typedef int b32;$/;"	t	typeref:typename:int	file:
+basic_fn	demo.c	/^int basic_fn(int a, int b) {$/;"	f	typeref:typename:int
+basic_fn	test_linux/testfiles/demo.c	/^int basic_fn(int a, int b) {$/;"	f	typeref:typename:int
+basic	test_vars_arithmetic.c	/^int basic(int a)$/;"	f	typeref:typename:int
+beech	tree_binary_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+beech	tree_binary_search.h	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species
+beech	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	e	enum:__anon0b2fdebb0103	file:
+beech	tree_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+best_int_i	test_external_template.cpp	/^    unsigned best_int_i;$/;"	m	struct:Stuff	typeref:typename:unsigned	file:
+b	test_class.cpp	/^    int b;$/;"	m	class:Data	typeref:typename:int	file:
+b	test_method.cpp	/^    int b;$/;"	m	class:Data	typeref:typename:int	file:
+b	test_outer_method.cpp	/^    int b;$/;"	m	class:Data	typeref:typename:int	file:
+b	test_small_struct_return.c	/^    unsigned char b;$/;"	m	struct:SmallStruct	typeref:typename:unsigned char	file:
+bounding_rect	screen_rects.c	/^    Rect largest_rect, bounding_rect;$/;"	m	struct:RectStats	typeref:typename:Rect	file:
+build_dir	test_linux/gen_user_input.py	/^build_dir = os.path.normpath(os.path.join(script_dir(), '..\/..\/build_linux\/'))$/;"	v
+byte	test_complex_types.c	/^    Byte byte;$/;"	m	struct:Container	typeref:typename:Byte	file:
+call_included_fn	demo.c	/^int call_included_fn(int a) {$/;"	f	typeref:typename:int
+call_included_fn	test_linux/testfiles/demo.c	/^int call_included_fn(int a) {$/;"	f	typeref:typename:int
+call_obj_fn	demo.c	/^int call_obj_fn(int a, int b) {$/;"	f	typeref:typename:int
+call_obj_fn	test_linux/testfiles/demo.c	/^int call_obj_fn(int a, int b) {$/;"	f	typeref:typename:int
+chlorophyll_level	tree_search.c	/^    float   chlorophyll_level;$/;"	m	struct:Leaf	typeref:typename:float	file:
+circular_references	test_circular_references.c	/^void circular_references()$/;"	f	typeref:typename:void
+class_fn	test_class.cpp	/^int class_fn(Data data)$/;"	f	typeref:typename:int
+c	test_class.cpp	/^    int c;$/;"	m	class:Data	typeref:typename:int	file:
+c	test_method.cpp	/^    int c;$/;"	m	class:Data	typeref:typename:int	file:
+c	test_outer_method.cpp	/^    int c;$/;"	m	class:Data	typeref:typename:int	file:
+compile	test_linux/gen_user_input.py	/^    def compile():$/;"	m	class:UserAction
+complex_ptrs	test_complex_ptrs.c	/^int complex_ptrs()$/;"	f	typeref:typename:int
+complex_types	test_complex_types.c	/^complex_types(int x, int y, double z, void *addr, MyStr str)$/;"	f	typeref:struct:Container
+connectSock	test_linux/gen_user_input.py	/^    def connectSock(self):$/;"	m	class:Tester
+const_anon_ptr	test_complex_types.c	/^    ConstAnonPtr const_anon_ptr;$/;"	m	struct:Type	typeref:typename:ConstAnonPtr	file:
+const_anon	test_complex_types.c	/^    ConstAnon    const_anon;$/;"	m	struct:Type	typeref:typename:ConstAnon	file:
+countof	test_.c	/^#define countof(/;"	d	file:
+data2	test_complex_types.c	/^    TaggedEnum data2;$/;"	m	struct:__anon25586ce10408	typeref:typename:TaggedEnum	file:
+data3	test_complex_types.c	/^    enum TagOnlyEnum data3;$/;"	m	struct:__anon25586ce10408	typeref:enum:TagOnlyEnum	file:
+data	test_circular_references.c	/^    float    data;$/;"	m	struct:LinkFloat	typeref:typename:float	file:
+data	test_circular_references.c	/^    int   data;$/;"	m	struct:Link	typeref:typename:int	file:
+data	test_circular_references.c	/^    int   data;$/;"	m	struct:LinkInt	typeref:typename:int	file:
+data	test_complex_ptrs.c	/^    DataType *data;$/;"	m	struct:PtrType	typeref:typename:DataType *	file:
+data	test_complex_types.c	/^    AnonEnum data;$/;"	m	struct:__anon25586ce10408	typeref:typename:AnonEnum	file:
+data	test_complex_types.c	/^    int data;$/;"	m	struct:RecursiveTypeTag	typeref:typename:int	file:
+data	test_complex_types.c	/^    struct NamedStruct { MyType my_type; int data; } named_struct;$/;"	m	struct:Container::NamedStruct	typeref:typename:int	file:
+data	test_complex_types.c	/^    struct { int data; struct Type my_types[1][2][3][4]; } inline_struct;$/;"	m	struct:Container::__anon25586ce10508	typeref:typename:int	file:
+data	test_root.c	/^    int data;$/;"	m	struct:MyData	typeref:typename:int	file:
+data	test_struct_hack.c	/^    double data[1];$/;"	m	struct:ArrayHeader	typeref:typename:double[1]	file:
+data	test_struct_hack.c	/^    double data[4];$/;"	m	struct:ArrayData	typeref:typename:double[4]	file:
+debug_read_file_result	win.c	/^typedef int debug_read_file_result;$/;"	t	typeref:typename:int	file:
+dimensions	tree_search.c	/^    V2      dimensions;$/;"	m	struct:Leaf	typeref:typename:V2	file:
+dirty	test_linux/gen_user_input.py	/^    def dirty(saved, loaded):$/;"	m	class:UserAction
+disconnectSock	test_linux/gen_user_input.py	/^    def disconnectSock(self):$/;"	m	class:Tester
+d	demo.c	/^    double d;$/;"	m	struct:MyData	typeref:typename:double	file:
+d	demo2.c	/^    double d;$/;"	m	struct:DemoType	typeref:typename:double	file:
+d	old/test2.c	/^	double d;$/;"	m	struct:test_t	typeref:typename:double	file:
+d	test_linux/testfiles/demo.c	/^    double  d;$/;"	m	struct:DemoType	typeref:typename:double	file:
+d	test_linux/testfiles/demo2.c	/^    double d;$/;"	m	struct:DemoType	typeref:typename:double	file:
+do_add	test_loclists.c	/^    int do_add;$/;"	m	struct:Data	typeref:typename:int	file:
+do_some_actions	test_linux/gen_user_input.py	/^def do_some_actions():$/;"	f
+do_the_thing	demo3.c	/^int do_the_thing(Data data) {$/;"	f	typeref:typename:int
+do_the_thing	test_linux/testfiles/demo3.c	/^int do_the_thing(Data data) {$/;"	f	typeref:typename:int
+double_it	cout.cpp	/^int double_it(int x) {$/;"	f	typeref:typename:int
+double_passthrough	test_double_passthrough.c	/^double double_passthrough(double var)$/;"	f	typeref:typename:double
+edit_path	test_linux/gen_user_input.py	/^    def edit_path(path, root):$/;"	m	class:UserAction
+editor	test_linux/gen_user_input.py	/^    def editor(editor):$/;"	m	class:UserAction
+elf_obj_loading	test_elf_obj_loading.c	/^int elf_obj_loading(int a)$/;"	f	typeref:typename:int
+even_pointed_to_fn	test_fn_ptr.c	/^int even_pointed_to_fn(int a)$/;"	f	typeref:typename:int
+example	tree_search.cpp	/^void example()$/;"	f	typeref:typename:void
+external_template_fn	test_external_template.cpp	/^external_template_fn(Stuff *stuff)$/;"	f	typeref:typename:int
+f32	test_complex_types.c	/^typedef float f32;$/;"	t	typeref:typename:float	file:
+factorial	demo4.c	/^Fit factorial(uint64_t v, uint64_t *value_out)$/;"	f	typeref:typename:Fit
+factorial	factorial.c	/^unsigned int factorial(unsigned int n) {$/;"	f	typeref:typename:unsigned int
+factorial	demo.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	m	struct:__anonf884325b0108	typeref:typename:int	file:
+factorial	sfr.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	m	struct:__anon1059dc010108	typeref:typename:int	file:
+fib_fn	demo.c	/^int fib_fn(int n) {$/;"	f	typeref:typename:int
+fib_fn	test_linux/testfiles/demo.c	/^int fib_fn(int n) {$/;"	f	typeref:typename:int
+file_data	test_linux/gen_user_input.py	/^file_data = []$/;"	v
+filenames	test_linux/gen_user_input.py	/^filenames = ["test", "test2", "demo_obj", "demo", "demo2", "demo3"]$/;"	v
+f	screen_rects.c	/^	union { float f; unsigned i; } val = { a };$/;"	m	union:F4_rsqrt::__anon524e8c96010a	typeref:typename:float	file:
+f	test_complex_ptrs.c	/^    float f;$/;"	m	struct:DataType	typeref:typename:float	file:
+f	test_complex_types.c	/^        f32 f;$/;"	m	union:FnStruct::__anon25586ce1020a	typeref:typename:f32	file:
+f	test_loops_struct.c	/^    struct {int k; float f; } st = { 0 };$/;"	m	struct:loops::__anon786a1e660108	typeref:typename:float	file:
+f	test_root.c	/^    float f;$/;"	m	struct:MyData	typeref:typename:float	file:
+fn_caller	test_linux/gen_user_input.py	/^    def fn_caller(text, fnname=None):$/;"	m	class:UserAction
+fn_ptr2	test_complex_types.c	/^    void    (*fn_ptr2)(RecursiveFn1 fn);$/;"	m	struct:Type	typeref:typename:void (*)(RecursiveFn1 fn)	file:
+fn_ptr	test_fn_ptr.c	/^int fn_ptr(int a, int fn_i)$/;"	f	typeref:typename:int
+fn_ptr	test_complex_types.c	/^    void    (*fn_ptr)();$/;"	m	struct:Type	typeref:typename:void (*)()	file:
+fn	demo.c	/^int fn(int a, int b, int c)$/;"	f	typeref:typename:int
+fn	include.c	/^float fn(float f)$/;"	f	typeref:typename:float
+fn	old/test2.c	/^int fn(int *x) {$/;"	f	typeref:typename:int
+fn	test_namespace.cpp	/^        int fn(int a, int b)$/;"	f	namespace:outer_ns::another_ns	typeref:typename:int
+fn	test_namespace.cpp	/^        other_ns::Data fn(OuterInt a)$/;"	f	namespace:outer_ns::inner_ns	typeref:typename:other_ns::Data
+fn	test_namespace.cpp	/^Data fn(OtherInt a)$/;"	f	typeref:typename:Data
+fs_n	test_loop_structs.c	/^    long        fs_n;$/;"	m	struct:MyStruct	typeref:typename:long	file:
+fs	test_loop_structs.c	/^    float      *fs;$/;"	m	struct:MyStruct	typeref:typename:float *	file:
+g_2	old/test2.c	/^int g_2 = 2;$/;"	v	typeref:typename:int
+g_port	test_linux/gen_user_input.py	/^g_port = 19013 + int(sys.argv[1])$/;"	v
+game_memory	win.c	/^} game_memory;$/;"	t	typeref:struct:__anon10a3d2240108	file:
+glob_var	test_global_var.c	/^int glob_var = 42;$/;"	v	typeref:typename:int
+glob_var	test_static_global_var.c	/^static int glob_var = 42;$/;"	v	typeref:typename:int	file:
+global_enum_var	regressions/enum_var.c	/^enum my_enum global_enum_var;$/;"	v	typeref:enum:my_enum
+global_scope_static	test_scopes.c	/^static int global_scope_static = 3;$/;"	v	typeref:typename:int	file:
+global_scope_uninit	test_scopes.c	/^int global_scope_uninit;$/;"	v	typeref:typename:int
+global_scope	test_scopes.c	/^int global_scope = 42;$/;"	v	typeref:typename:int
+global_var	test_global_var.c	/^int global_var()$/;"	f	typeref:typename:int
+glob	old/test1.c	/^int glob=7;$/;"	v	typeref:typename:int
+i	demo.c	/^    int    i;$/;"	m	struct:MyData	typeref:typename:int	file:
+i	old/test2.c	/^	int i;$/;"	m	struct:test_t	typeref:typename:int	file:
+i	screen_rects.c	/^	union { float f; unsigned i; } val = { a };$/;"	m	union:F4_rsqrt::__anon524e8c96010a	typeref:typename:unsigned	file:
+i	test_complex_ptrs.c	/^    int i;$/;"	m	struct:DataType	typeref:typename:int	file:
+i	test_complex_types.c	/^        int i;$/;"	m	union:FnStruct::__anon25586ce1020a	typeref:typename:int	file:
+i	test_linux/testfiles/demo.c	/^    int     i;$/;"	m	struct:DemoType	typeref:typename:int	file:
+include_stdint	test_include_stdint.c	/^uint64_t include_stdint()$/;"	f	typeref:typename:uint64_t
+included_fn	demo_include.c	/^int included_fn(int a)$/;"	f	typeref:typename:int
+included_fn	test_local_included.c	/^included_fn(int a)$/;"	f	typeref:typename:IncludedType
+inline_struct	test_complex_types.c	/^    struct { int data; struct Type my_types[1][2][3][4]; } inline_struct;$/;"	m	struct:Container	typeref:struct:Container::__anon25586ce10508	file:
+inner_ns	test_namespace.cpp	/^    namespace inner_ns$/;"	n	namespace:outer_ns	file:
+int_cmp	test_cstdlib.c	/^int int_cmp(void const *a, void const *b)$/;"	f	typeref:typename:int
+internal_fn_call	test_internal_fn_call.c	/^int internal_fn_call(int a, int b, int c)$/;"	f	typeref:typename:int
+internal_fn	demo.c	/^int internal_fn(int a)$/;"	f	typeref:typename:int
+interval_pt	test_overlap.c	/^interval_pt(UPtr s, UPtr e, UPtr p)$/;"	f	typeref:typename:IVLPt
+ints	test_external_template.cpp	/^    std::vector<int> ints;$/;"	m	struct:Stuff	typeref:typename:std::vector<int>	file:
+is_valid	demo3.c	/^int is_valid(test_t v)$/;"	f	typeref:typename:int
+is_valid	test_linux/testfiles/demo3.c	/^int is_valid(test_t v)$/;"	f	typeref:typename:int
+is	test_loop_structs.c	/^    int         is[4];$/;"	m	struct:MyStruct	typeref:typename:int[4]	file:
+ivl_overlap	test_overlap.c	/^ivl_overlap(UPtr as, UPtr ae, UPtr bs, UPtr be, UPtr *overlap_s, UPtr *overlap_e)$/;"	f	typeref:typename:IVL
+jsonObject	test_linux/gen_user_input.py	/^def jsonObject ():$/;"	f
+kind	test_complex_types.c	/^    enum { Fn_int, Fn_float, } kind;$/;"	m	struct:FnStruct	typeref:enum:FnStruct::__anon25586ce10103	file:
+k	test_loops_struct.c	/^    struct {int k; float f; } st = { 0 };$/;"	m	struct:loops::__anon786a1e660108	typeref:typename:int	file:
+largest_area	screen_rects.c	/^    float largest_area;$/;"	m	struct:RectStats	typeref:typename:float	file:
+largest_col	test_linux/gen_user_input.py	/^        largest_col = file.col_bound$/;"	v
+largest_col	test_linux/gen_user_input.py	/^largest_col = 0$/;"	v
+largest_rect	screen_rects.c	/^    Rect largest_rect, bounding_rect;$/;"	m	struct:RectStats	typeref:typename:Rect	file:
+largest_row	test_linux/gen_user_input.py	/^        largest_row = file.row_bound$/;"	v
+largest_row	test_linux/gen_user_input.py	/^largest_row = 0$/;"	v
+leaves_n	tree_binary_search.cpp	/^    int leaves_n;$/;"	m	struct:Branch	typeref:typename:int	file:
+leaves_n	tree_binary_search.h	/^    int leaves_n;$/;"	m	struct:Branch	typeref:typename:int
+leaves_n	tree_search.cpp	/^    int leaves_n;$/;"	m	struct:Branch	typeref:typename:int	file:
+leaves	tree_binary_search.cpp	/^    Leaf *leaves;$/;"	m	struct:Branch	typeref:typename:Leaf *	file:
+leaves	tree_binary_search.h	/^    Leaf *leaves;$/;"	m	struct:Branch	typeref:typename:Leaf *
+leaves	tree_search.cpp	/^    Leaf *leaves;$/;"	m	struct:Branch	typeref:typename:Leaf *	file:
+lineLengths	test_linux/gen_user_input.py	/^    def lineLengths(self, lines):$/;"	m	class:FileData
+local_include	test_local_include.c	/^local_include(int a, char *str)$/;"	f	typeref:typename:IncludedType
+loclists_fn	test_loclists.c	/^int loclists_fn(Data data) {$/;"	f	typeref:typename:int
+log_b2_u64	demo.c	/^log_b2_u64(unsigned long long int v)$/;"	f	typeref:typename:unsigned long long int
+log_b2_u64	test_linux/testfiles/demo.c	/^log_b2_u64(unsigned long long int v)$/;"	f	typeref:typename:unsigned long long int
+longer_circular_references	test_circular_references.c	/^void longer_circular_references()$/;"	f	typeref:typename:void
+longestRow	test_linux/gen_user_input.py	/^    def longestRow(self, lengths):$/;"	m	class:FileData
+loop_structs_fn	test_loop_structs.c	/^void loop_structs_fn()$/;"	f	typeref:typename:void
+loops	test_loops.c	/^void loops()$/;"	f	typeref:typename:void
+loops	test_loops_struct.c	/^void loops()$/;"	f	typeref:typename:void
+main	cout.cpp	/^int main() {$/;"	f	typeref:typename:int
+main	executable.c	/^int main()$/;"	f	typeref:typename:int
+main	old/test1.c	/^int main() {$/;"	f	typeref:typename:int
+main	old/test2.c	/^int main()$/;"	f	typeref:typename:int
+main	old/test3.c	/^int main() {$/;"	f	typeref:typename:int
+main	old/test4.c	/^int main() {$/;"	f	typeref:typename:int
+main	regressions/enum_var.c	/^int main()$/;"	f	typeref:typename:int
+main	screen_rects.c	/^int main()$/;"	f	typeref:typename:int
+main	test_.c	/^int main()$/;"	f	typeref:typename:int
+main	test_dll.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test_empty_main.c	/^int main() {$/;"	f	typeref:typename:int
+main	test_external_template.cpp	/^int main()$/;"	f	typeref:typename:int
+main	test_linux/testfiles/test.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test_linux/testfiles/test_1.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test_linux/testfiles/test_2.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test_linux/testfiles/test_base.c	/^int main(void) {$/;"	f	typeref:typename:int
+main	test_unreferenced_fn.c	/^int main()$/;"	f	typeref:typename:int
+malloc_array_fn	test_malloc.c	/^double *malloc_array_fn(double val, int n)$/;"	f	typeref:typename:double *
+malloc_fn	test_malloc.c	/^double *malloc_fn(double val)$/;"	f	typeref:typename:double *
+malloc_int_fn	test_malloc.c	/^int *malloc_int_fn()$/;"	f	typeref:typename:int *
+maple	tree_binary_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+maple	tree_binary_search.h	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species
+maple	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	e	enum:__anon0b2fdebb0103	file:
+maple	tree_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+matrix_2x3	demo.c	/^int matrix_2x3(int a, int b, int c, int d, int e, int f)$/;"	f	typeref:typename:int
+max_leaf_size	tree_search.cpp	/^Vec2 max_leaf_size = { 3, 6 };$/;"	v	typeref:typename:Vec2
+max_num	demo2.c	/^    float  max_num;$/;"	m	struct:DemoType	typeref:typename:float	file:
+max_num	demo2.c	/^    int max_num;$/;"	m	struct:DemoType2	typeref:typename:int	file:
+max_num	test_linux/testfiles/demo2.c	/^    float  max_num;$/;"	m	struct:DemoType	typeref:typename:float	file:
+max_num	test_linux/testfiles/demo2.c	/^    int max_num;$/;"	m	struct:DemoType2	typeref:typename:int	file:
+max_x	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	m	struct:Rect	typeref:typename:float	file:
+max_y	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	m	struct:Rect	typeref:typename:float	file:
+maxf	screen_rects.c	/^static inline float maxf(float a, float b) { return a > b ? a : b; }$/;"	f	typeref:typename:float	file:
+max	test_internal_fn_call.c	/^int max(int a, int b)$/;"	f	typeref:typename:int
+method	test_method.cpp	/^    int method(int d)$/;"	f	class:Data	typeref:typename:int	file:
+method	test_outer_method.cpp	/^int Data::method(int d)$/;"	f	class:Data	typeref:typename:int
+min_x	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	m	struct:Rect	typeref:typename:float	file:
+min_y	screen_rects.c	/^typedef struct Rect { float min_x, min_y,    max_x, max_y; } Rect; \/\/ axis-aligned$/;"	m	struct:Rect	typeref:typename:float	file:
+minf	screen_rects.c	/^static inline float minf(float a, float b) { return a < b ? a : b; }$/;"	f	typeref:typename:float	file:
+multiple_return_even_odd_str	test_multiple_return_statements.c	/^multiple_return_even_odd_str(int a)$/;"	f	typeref:typename:char const *
+my_enum	regressions/enum_var.c	/^enum my_enum { ENUM_val };$/;"	g	file:
+my_fn	test_complex_types.c	/^    MyFn    my_fn;$/;"	m	struct:Type	typeref:typename:MyFn	file:
+my_max	demo.c	/^my_max(float a, float b)$/;"	f	typeref:typename:float
+my_type_ptr	test_complex_types.c	/^    struct { int anon_data; MyType const *my_type_ptr; };$/;"	m	struct:Container::__anon25586ce10608	typeref:typename:MyType const *	file:
+my_type	test_complex_types.c	/^    MyType my_type;$/;"	m	struct:Container	typeref:typename:MyType	file:
+my_type	test_complex_types.c	/^    struct NamedStruct { MyType my_type; int data; } named_struct;$/;"	m	struct:Container::NamedStruct	typeref:typename:MyType	file:
+my_types	test_complex_types.c	/^    struct { int data; struct Type my_types[1][2][3][4]; } inline_struct;$/;"	m	struct:Container::__anon25586ce10508	typeref:struct:Type[1][2][3][4]	file:
+named_struct	test_complex_types.c	/^    struct NamedStruct { MyType my_type; int data; } named_struct;$/;"	m	struct:Container	typeref:struct:Container::NamedStruct	file:
+next_port	test_linux/gen_user_input.py	/^def next_port():$/;"	f
+next	test_circular_references.c	/^    Link *next;$/;"	m	struct:Link	typeref:typename:Link *	file:
+next	test_circular_references.c	/^    LinkFloat *next;$/;"	m	struct:LinkInt	typeref:typename:LinkFloat *	file:
+next	test_circular_references.c	/^    LinkInt *next;$/;"	m	struct:LinkFloat	typeref:typename:LinkInt *	file:
+next	test_complex_types.c	/^    RecursiveType *next;$/;"	m	struct:RecursiveTypeTag	typeref:typename:RecursiveType *	file:
+next	tree_binary_search.cpp	/^    Leaf *next;$/;"	m	struct:Leaf	typeref:typename:Leaf *	file:
+next	tree_binary_search.h	/^    Leaf *next;$/;"	m	struct:Leaf	typeref:typename:Leaf *
+next	tree_search.cpp	/^    Leaf *next;$/;"	m	struct:Leaf	typeref:typename:Leaf *	file:
+n	test_.c	/^        int n;$/;"	m	struct:main::__anond91e64b50108	typeref:typename:int	file:
+n	test_struct_hack.c	/^    int    n;$/;"	m	struct:ArrayHeader	typeref:typename:int	file:
+nop	test_nop.c	/^void nop()$/;"	f	typeref:typename:void
+num	demo2.c	/^    int num;$/;"	m	struct:DemoType2	typeref:typename:int	file:
+num	demo3.c	/^    int  num;$/;"	m	struct:Data	typeref:typename:int	file:
+num	test_linux/testfiles/demo2.c	/^    int num;$/;"	m	struct:DemoType2	typeref:typename:int	file:
+num	test_linux/testfiles/demo3.c	/^    int  num;$/;"	m	struct:Data	typeref:typename:int	file:
+num	test_loclists.c	/^    int num;$/;"	m	struct:Data	typeref:typename:int	file:
+oak	tree_binary_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+oak	tree_binary_search.h	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species
+oak	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	e	enum:__anon0b2fdebb0103	file:
+oak	tree_search.cpp	/^enum Species  { oak, maple, beech };$/;"	e	enum:Species	file:
+obj_fn	demo_obj.c	/^int obj_fn(int n, ...) {$/;"	f	typeref:typename:(dllexport)int
+obj_fn	test_elf_obj_loading_obj.c	/^int obj_fn(int a)$/;"	f	typeref:typename:int
+obj_fn	test_linux/testfiles/demo_obj.c	/^int obj_fn(int n, ...) {$/;"	f	typeref:typename:(dllexport)int
+obj_paths	test_linux/gen_user_input.py	/^    def obj_paths(paths):$/;"	m	class:UserAction
+odd_pointed_to_fn	test_fn_ptr.c	/^int odd_pointed_to_fn(int a)$/;"	f	typeref:typename:int
+op	demo3.c	/^    Op op;$/;"	m	struct:Data	typeref:typename:Op	file:
+op	test_linux/testfiles/demo3.c	/^    Op op;$/;"	m	struct:Data	typeref:typename:Op	file:
+other_data	test_complex_types.c	/^    int other_data[2];$/;"	m	struct:Container	typeref:typename:int[2]	file:
+other_ns	test_namespace.cpp	/^namespace other_ns$/;"	n	file:
+outer_ns	test_namespace.cpp	/^namespace outer_ns$/;"	n	file:
+overlap_type	test_overlap.c	/^overlap_type(UPtr as, UPtr ae, UPtr bs, UPtr be, UPtr *overlap_s, UPtr *overlap_e)$/;"	f	typeref:typename:IVL
+portlog	test_linux/gen_user_input.py	/^portlog = []$/;"	v
+prev_ptr	test_complex_ptrs.c	/^    PtrType  *prev_ptr;$/;"	m	struct:PtrType	typeref:typename:PtrType *	file:
+ptr_data	test_complex_ptrs.c	/^    PtrType ptr_data[3];$/;"	m	struct:PtrTypeContainer	typeref:typename:PtrType[3]	file:
+ptr_return	test_ptr_return.c	/^void ptr_return(int a, int *a_out)$/;"	f	typeref:typename:void
+ptr	test_.c	/^        float *ptr;$/;"	m	struct:main::__anond91e64b50108	typeref:typename:float *	file:
+ptr	test_complex_types.c	/^    int    *ptr;$/;"	m	struct:Type	typeref:typename:int *	file:
+ptrs	test_complex_ptrs.c	/^    PtrType *ptrs[3];$/;"	m	struct:PtrTypeContainer	typeref:typename:PtrType * [3]	file:
+rect_group	screen_rects.c	/^Rect rect_group(Rect a, Rect b) { \/\/ result is a bounding rect for a and b$/;"	f	typeref:typename:Rect
+rect_overlap	screen_rects.c	/^int rect_overlap(Rect const *a, Rect const *b, Rect *overlap) { \/\/ intersection rect$/;"	f	typeref:typename:int
+rects_on_screen_n	screen_rects.c	/^    int  rects_on_screen_n;$/;"	m	struct:RectStats	typeref:typename:int	file:
+recursive_fn1	test_complex_types.c	/^    RecursiveFn1     recursive_fn1;$/;"	m	struct:Type	typeref:typename:RecursiveFn1	file:
+recursive_fn2	test_complex_types.c	/^    RecursiveFn2     recursive_fn2;$/;"	m	struct:Type	typeref:typename:RecursiveFn2	file:
+recursive_fn	test_recursive_fn.c	/^unsigned recursive_fn(unsigned a)$/;"	f	typeref:typename:unsigned
+recursive	test_complex_types.c	/^    RecursiveType    recursive;$/;"	m	struct:Type	typeref:typename:RecursiveType	file:
+ref_struct	test_reference.cpp	/^void ref_struct(Data &ref, float &f)$/;"	f	typeref:typename:void
+reference	test_reference.cpp	/^void reference(int &x)$/;"	f	typeref:typename:void
+re	test_complex_types.c	/^    RecursiveTypePtr re;$/;"	m	struct:Type	typeref:typename:RecursiveTypePtr	file:
+result_only	test_vars_arithmetic.c	/^int result_only(int a)$/;"	f	typeref:typename:int
+return_Type1_1	test_return_types.c	/^TS(1_1, struct{ uint8_t a[8];  }, { 2,3,4,5,6,7,8                             }) Type1_1 return_/;"	f
+return_Type1_2	test_return_types.c	/^TS(1_2, struct{ uint8_t a[10]; }, { 1,2,3,4,5,6,7,8,9,10                      }) Type1_2 return_/;"	f
+return_Type1_3	test_return_types.c	/^TS(1_3, struct{ uint8_t a[17]; }, { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 }) Type1_3 return_/;"	f
+return_Type1_4	test_return_types.c	/^TS(1_4, struct{ float   a[3];  }, { 1,2,3                                     }) Type1_4 return_/;"	f
+return_Type1_5	test_return_types.c	/^TS(1_5, struct{ float   a[6];  }, { 1,2,3,4,5,6                               }) Type1_5 return_/;"	f
+return_Type2_1	test_return_types.c	/^TS(2_1, struct{ int32_t a; int32_t b; }, { 1,2 }) Type2_1 return_Type2_1(void){ return t2_1; }$/;"	f
+return_Type2_2	test_return_types.c	/^TS(2_2, struct{ int32_t a; int64_t b; }, { 1,2 }) Type2_2 return_Type2_2(void){ return t2_2; }$/;"	f
+return_Type2_3	test_return_types.c	/^TS(2_3, struct{ int32_t a; float   b; }, { 1,2 }) Type2_3 return_Type2_3(void){ return t2_3; }$/;"	f
+return_Type2_4	test_return_types.c	/^TS(2_4, struct{ int32_t a; double  b; }, { 1,2 }) Type2_4 return_Type2_4(void){ return t2_4; }$/;"	f
+return_Type2_5	test_return_types.c	/^TS(2_5, struct{ double  a; int32_t b; }, { 1,2 }) Type2_5 return_Type2_5(void){ return t2_5; }$/;"	f
+return_Type2_6	test_return_types.c	/^TS(2_6, struct{ float   a; double  b; }, { 1,2 }) Type2_6 return_Type2_6(void){ return t2_6; }$/;"	f
+return_Type3_1	test_return_types.c	/^TS(3_1, struct{ int32_t a; int32_t b; int32_t c; }, {1,2,3}) Type3_1 return_Type3_1(void){ retur/;"	f
+return_Type3_2	test_return_types.c	/^TS(3_2, struct{ int32_t a; int64_t b; int64_t c; }, {1,2,3}) Type3_2 return_Type3_2(void){ retur/;"	f
+return_Type3_3	test_return_types.c	/^TS(3_3, struct{ int8_t  a; int16_t b; int32_t c; }, {1,2,3}) Type3_3 return_Type3_3(void){ retur/;"	f
+return_Type3_4	test_return_types.c	/^TS(3_4, struct{ float   a; float   b; double  c; }, {1,2,3}) Type3_4 return_Type3_4(void){ retur/;"	f
+return_bool	test_return_types.c	/^_Bool  return_bool()   { return 1;  }$/;"	f	typeref:typename:_Bool
+return_double	test_return_types.c	/^double return_double() { return 6.28;  }$/;"	f	typeref:typename:double
+return_float	test_return_types.c	/^float  return_float()  { return 3.14f; }$/;"	f	typeref:typename:float
+return_int16	test_return_types.c	/^int16_t  return_int16()  { return -3; }$/;"	f	typeref:typename:int16_t
+return_int32	test_return_types.c	/^int32_t  return_int32()  { return -5; }$/;"	f	typeref:typename:int32_t
+return_int64	test_return_types.c	/^int64_t  return_int64()  { return -7; }$/;"	f	typeref:typename:int64_t
+return_int8	test_return_types.c	/^int8_t   return_int8()   { return -1; }$/;"	f	typeref:typename:int8_t
+return_long_long	test_return_types.c	/^long    long   return_long_long()      { return 8;         }$/;"	f	typeref:typename:long long
+return_pointer	test_return_types.c	/^char    const *return_pointer()        { return "A";       }$/;"	f	typeref:typename:char const *
+return_uint16	test_return_types.c	/^uint16_t return_uint16() { return 4;  }$/;"	f	typeref:typename:uint16_t
+return_uint32	test_return_types.c	/^uint32_t return_uint32() { return 6;  }$/;"	f	typeref:typename:uint32_t
+return_uint64	test_return_types.c	/^uint64_t return_uint64() { return 8;  }$/;"	f	typeref:typename:uint64_t
+return_uint8	test_return_types.c	/^uint8_t  return_uint8()  { return 2;  }$/;"	f	typeref:typename:uint8_t
+rnglists_fn	test_rnglists.c	/^void rnglists_fn()$/;"	f	typeref:typename:void
+root	demo.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	m	struct:__anonf884325b0108	typeref:typename:float	file:
+root	sfr.c	/^typedef struct { int factorial; float root; } FacRoot;$/;"	m	struct:__anon1059dc010108	typeref:typename:float	file:
+scale_array_members	demo2.c	/^scale_array_members(double *array, int array_n, double scale)$/;"	f	typeref:typename:void
+scale_array_members	test_linux/testfiles/demo2.c	/^scale_array_members(double *array, int array_n, double scale)$/;"	f	typeref:typename:void
+scopes	test_scopes.c	/^int scopes()$/;"	f	typeref:typename:int
+screen_rect_stats	screen_rects.c	/^RectStats screen_rect_stats(Rect const *rects, int n, float screen_w, float screen_h) {$/;"	f	typeref:typename:RectStats
+script_dir	test_linux/gen_user_input.py	/^def script_dir():$/;"	f
+seen_changes_fn	demo.c	/^void seen_changes_fn()$/;"	f	typeref:typename:void
+seen_changes_fn	test_linux/testfiles/demo.c	/^void seen_changes_fn()$/;"	f	typeref:typename:void
+selection_range	test_linux/gen_user_input.py	/^    def selection_range(first_line, first_column, second_line, second_column):$/;"	m	class:UserAction
+selection	test_linux/gen_user_input.py	/^    def selection(line, column):$/;"	m	class:UserAction
+sendJson	test_linux/gen_user_input.py	/^    def sendJson(self, data):$/;"	m	class:Tester
+simple_protos_lerp	test_simple_protos.c	/^simple_protos_lerp(double a, double t, double b)$/;"	f	typeref:typename:double
+simple_protos_struct2	test_simple_protos.c	/^simple_protos_struct2(int x)$/;"	f	typeref:typename:MyType
+simple_protos_struct	test_simple_protos.c	/^simple_protos_struct(int x, int y, double z, Addr addr, char *str)$/;"	f	typeref:typename:MyType
+size	tree_binary_search.cpp	/^    Vec2    size;$/;"	m	struct:Leaf	typeref:typename:Vec2	file:
+size	tree_binary_search.h	/^    Vec2    size;$/;"	m	struct:Leaf	typeref:typename:Vec2
+size	tree_search.cpp	/^    Vec2    size;$/;"	m	struct:Leaf	typeref:typename:Vec2	file:
+small_struct_return	test_small_struct_return.c	/^SmallStruct small_struct_return(char a, unsigned char b)$/;"	f	typeref:typename:SmallStruct
+some_data	test_struct_hack.c	/^ArrayData some_data()$/;"	f	typeref:typename:ArrayData
+something	test_.c	/^something(double (*f)(double))$/;"	f	typeref:typename:int
+species	tree_binary_search.cpp	/^    Species species;$/;"	m	struct:Branch	typeref:typename:Species	file:
+species	tree_binary_search.h	/^    Species species;$/;"	m	struct:Branch	typeref:typename:Species
+species	tree_search.c	/^    Species species;$/;"	m	struct:Leaf	typeref:typename:Species	file:
+species	tree_search.cpp	/^    Species species;$/;"	m	struct:Branch	typeref:typename:Species	file:
+square_factorial_root	demo.c	/^int square_factorial_root(FacRoot *result, int n) {$/;"	f	typeref:typename:int
+square_factorial_root	sfr.c	/^int square_factorial_root(FacRoot *result, int n) {$/;"	f	typeref:typename:int
+static_3	old/test2.c	/^static int static_3 = 3;$/;"	v	typeref:typename:int	file:
+static_fn	old/test2.c	/^static void static_fn()$/;"	f	typeref:typename:void	file:
+static_fn	test_static_fn.c	/^static int static_fn(int a)$/;"	f	typeref:typename:int	file:
+static_global_var	test_static_global_var.c	/^int static_global_var()$/;"	f	typeref:typename:int
+static_var	test_static_var.c	/^int static_var()$/;"	f	typeref:typename:int
+str_fn	demo.c	/^str_fn(int str_choice)$/;"	f	typeref:typename:char const *
+str_fn	demo2.c	/^str_fn(int str_choice)$/;"	f	typeref:typename:char const *
+str_fn	test_linux/testfiles/demo.c	/^str_fn(int str_choice)$/;"	f	typeref:typename:char const *
+str_fn	test_linux/testfiles/demo2.c	/^str_fn(int str_choice)$/;"	f	typeref:typename:char const *
+string_param	test_strings.c	/^int string_param(char const *str)$/;"	f	typeref:typename:int
+string_return	test_strings.c	/^char const * string_return(int str_i)$/;"	f	typeref:typename:char const *
+str	old/test2.c	/^	char *str;$/;"	m	struct:test_t	typeref:typename:char *	file:
+str	test_.c	/^        char const *str;$/;"	m	struct:main::__anond91e64b50108	typeref:typename:char const *	file:
+str	test_complex_types.c	/^    Str     str;$/;"	m	struct:Type	typeref:typename:Str	file:
+str	test_local_included.c	/^    char *str;$/;"	m	struct:IncludedType	typeref:typename:char *	file:
+str	test_loop_structs.c	/^    char const *str;$/;"	m	struct:MyStruct	typeref:typename:char const *	file:
+str	test_simple_protos.c	/^    char  *str;$/;"	m	struct:Type	typeref:typename:char *	file:
+struct_hack_fn	test_struct_hack.c	/^ArrayHeader *struct_hack_fn(int n, double val)$/;"	f	typeref:typename:ArrayHeader *
+struct_ptr_fn	demo.c	/^void struct_ptr_fn(MyData *data, int i, double d) {$/;"	f	typeref:typename:void
+struct_ptr_fn	demo2.c	/^int struct_ptr_fn(DemoType *demo, double d, float *nums, int n)$/;"	f	typeref:typename:int
+struct_ptr_fn	test_linux/testfiles/demo.c	/^void struct_ptr_fn(DemoType *demo, int i, double d) {$/;"	f	typeref:typename:void
+struct_ptr_fn	test_linux/testfiles/demo2.c	/^int struct_ptr_fn(DemoType *demo, double d, float *nums, int n)$/;"	f	typeref:typename:int
+struct_return	test_simple_protos.c	/^struct_return(MyType a)$/;"	f	typeref:typename:MyType
+st	test_linux/gen_user_input.py	/^from hypothesis import given, strategies as st, assume, settings$/;"	x	nameref:unknown:strategies
+sycamore	tree_search.c	/^typedef enum   { oak, sycamore, maple, beech } Species;$/;"	e	enum:__anon0b2fdebb0103	file:
+td_fn	test_complex_types.c	/^    Fn     *td_fn;$/;"	m	struct:Type	typeref:typename:Fn *	file:
+test_enum_flags	test_enums.c	/^Flags test_enum_flags(int a, int b, int c, int d, int e, int f)$/;"	f	typeref:typename:Flags
+test_enum	test_enums.c	/^Enum test_enum(int a)$/;"	f	typeref:typename:Enum
+test_file_changes	test_linux/gen_user_input.py	/^def test_file_changes():$/;"	f
+test_file_selections	test_linux/gen_user_input.py	/^def test_file_selections(items):$/;"	f
+test_json_objects	test_linux/gen_user_input.py	/^def test_json_objects(objs):$/;"	f
+test_qsort	test_cstdlib.c	/^int test_qsort()$/;"	f	typeref:typename:int
+test_root_include	test_root_include.c	/^float test_root_include(MyData a)$/;"	f	typeref:typename:float
+test_t	old/test2.c	/^typedef struct test_t$/;"	s	file:
+test_t	demo3.c	/^typedef char test_t;$/;"	t	typeref:typename:char	file:
+test_t	old/test2.c	/^} test_t;$/;"	t	typeref:struct:test_t	file:
+test_t	test_linux/testfiles/demo3.c	/^typedef char test_t;$/;"	t	typeref:typename:char	file:
+test_user_actions	test_linux/gen_user_input.py	/^def test_user_actions():$/;"	f
+testfile_dir	test_linux/gen_user_input.py	/^testfile_dir = "..\/"+script_dir()+"\/testfiles\/"$/;"	v
+tree_depth_first_search_for_leaf	tree_search.c	/^tree_depth_first_search_for_leaf()$/;"	f	typeref:typename:Leaf *
+trim_leaf_of_species	tree_binary_search.cpp	/^void trim_leaf_of_species(Branch const *branches, int n, Species species) {$/;"	f	typeref:typename:void
+trim_leaf_of_species	tree_binary_search.h	/^void trim_leaf_of_species(Branch const *branches, int n, Species species) {$/;"	f	typeref:typename:void
+trim_leaf_of_species	tree_search.cpp	/^void trim_leaf_of_species(Branch *branches, int n, Species species) {$/;"	f	typeref:typename:void
+u32	win.c	/^typedef unsigned int u32;$/;"	t	typeref:typename:unsigned int	file:
+uint8_t	test_complex_types.c	/^typedef unsigned char uint8_t;$/;"	t	typeref:typename:unsigned char	file:
+unreferenced_fn	test_unreferenced_fn.c	/^int unreferenced_fn()$/;"	f	typeref:typename:int
+val	test_namespace.cpp	/^    struct Data { OtherInt val; };$/;"	m	struct:other_ns::Data	typeref:typename:OtherInt	file:
+val	test_namespace.cpp	/^struct Data { OtherInt val; };$/;"	m	struct:Data	typeref:typename:OtherInt	file:
+varargs	test_varargs.c	/^int varargs(int n, ...)$/;"	f	typeref:typename:int
+vars_arithmetic	test_vars_arithmetic.c	/^vars_arithmetic(float a, float t, float b)$/;"	f	typeref:typename:float
+waitForOk	test_linux/gen_user_input.py	/^    def waitForOk(self):$/;"	m	class:Tester
+windows_include_fn	test_windows_include.c	/^windows_include_fn(DWORD err_num)$/;"	f	typeref:typename:DWORD
+windows_last_error	test_windows_last_error.c	/^int windows_last_error()$/;"	f	typeref:typename:int
+x	test_complex_types.c	/^    int     x, y;$/;"	m	struct:Type	typeref:typename:int	file:
+x	test_reference.cpp	/^    int &x;$/;"	m	struct:Data	typeref:typename:int &	file:
+x	test_simple_protos.c	/^    int    x, y;$/;"	m	struct:Type	typeref:typename:int	file:
+x	tree_binary_search.cpp	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float	file:
+x	tree_binary_search.h	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float
+x	tree_search.c	/^typedef struct { float x, y; } V2;$/;"	m	struct:__anon0b2fdebb0208	typeref:typename:float	file:
+x	tree_search.cpp	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float	file:
+y	test_complex_types.c	/^    int     x, y;$/;"	m	struct:Type	typeref:typename:int	file:
+y	test_reference.cpp	/^    int y;$/;"	m	struct:Data	typeref:typename:int	file:
+y	test_simple_protos.c	/^    int    x, y;$/;"	m	struct:Type	typeref:typename:int	file:
+y	tree_binary_search.cpp	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float	file:
+y	tree_binary_search.h	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float
+y	tree_search.c	/^typedef struct { float x, y; } V2;$/;"	m	struct:__anon0b2fdebb0208	typeref:typename:float	file:
+y	tree_search.cpp	/^struct Vec2   { float x, y; };$/;"	m	struct:Vec2	typeref:typename:float	file:
+z	test_complex_types.c	/^    double  z;$/;"	m	struct:Type	typeref:typename:double	file:
+z	test_simple_protos.c	/^    double z;$/;"	m	struct:Type	typeref:typename:double	file:
