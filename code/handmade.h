@@ -21,13 +21,22 @@
 // TODO(casey): In the future, rendering _specifically_ will become a three-tiered abstraction!!!
 struct game_offscreen_buffer
 {
-    // NOTE(casey): Pixels are alwasy 32-bits wide, Memory Order BB GG RR XX
-    void *Memory;
-    int Width;
-    int Height;
-    int Pitch;
+  // NOTE(casey): Pixels are alwasy 32-bits wide, Memory Order BB GG RR XX
+  void *Memory;
+  int Width;
+  int Height;
+  int Pitch;
 };
-internal void GameUpdateAndRender(game_offscreen_buffer *Buffer, int BlueOffset, int GreenOffset);
+
+struct game_sound_output_buffer
+{
+  int SamplesPerSecond;
+  int SampleCount;
+  int16 *Samples;
+};
+
+internal void GameUpdateAndRender(game_offscreen_buffer *Buffer, int BlueOffset, int GreenOffset,
+                                  game_sound_output_buffer *SoundBuffer);
 
 #define HANDMADE_H
 #endif
