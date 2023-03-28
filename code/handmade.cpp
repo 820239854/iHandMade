@@ -45,8 +45,8 @@ RenderWeirdGradient(game_offscreen_buffer *Buffer, int BlueOffset, int GreenOffs
             X < Buffer->Width;
             ++X)
         {
-            uint8 Blue = (X + BlueOffset);
-            uint8 Green = (Y + GreenOffset);
+            uint8 Blue = (uint8)(X + BlueOffset);
+            uint8 Green = (uint8)(Y + GreenOffset);
 
             *Pixel++ = ((Green << 8) | Blue);
         }
@@ -83,8 +83,8 @@ GameUpdateAndRender(game_memory *Memory, game_input *Input, game_offscreen_buffe
     if(Input0->IsAnalog)
     {
         // NOTE(casey): Use analog movement tuning
-        GameState->BlueOffset += (int)4.0f*(Input0->EndX);
-        GameState->ToneHz = 256 + (int)(128.0f*(Input0->EndY));
+        GameState->BlueOffset += (int)(4.0f*Input0->EndX);
+        GameState->ToneHz = 256 + (int)(128.0f*Input0->EndY);
     }
     else
     {
@@ -97,7 +97,7 @@ GameUpdateAndRender(game_memory *Memory, game_input *Input, game_offscreen_buffe
     {
         GameState->GreenOffset += 1;
     }
-    
+
     // TODO(casey): Allow sample offsets here for more robust platform options
     GameOutputSound(SoundBuffer, GameState->ToneHz);
     RenderWeirdGradient(Buffer, GameState->BlueOffset, GameState->GreenOffset);
