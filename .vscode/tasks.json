@@ -30,10 +30,10 @@
         {
             "label": "run",
             "type": "shell",
-            "command": "./win32_handmade.exe",
+            "command": "../build/win32_handmade.exe",
             "args": [],
             "options": {
-                "cwd": "${workspaceFolder}/build"
+                "cwd": "${workspaceFolder}/data"
             },
             "problemMatcher": [
                 "$msCompile"
